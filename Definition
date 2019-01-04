@@ -1,0 +1,12 @@
+There are five standards logging level which allow us to what we want to log.
+1. DEBUG : Detailed information, typically of interest only when diagnosis problems.
+2. INFO : Confirmation that things are working as expected
+3. WARNING : An indication that something unexpected happened, or indicative of some problems in the near future (e.g disk space low).
+4. ERROR : Due to more serious problem, the software has not able to perform some function.
+5. CRITICAL : A serious error, indicating that the program itself may be unable to continue running.
+
+
+Default level for logging is set to WARNING i.e it will capture WARNING, ERROR and CRITICAL that means it going to ignore DEBUG and INFO.
+E.g Lets say a program we run only we get the WARNING, ERROR and CRITICAL.
+
+While capturing all the logs in log file must mention input and output as well.
